@@ -15,6 +15,7 @@ spec:
       containers:
       - name: my-restaurant-app
         image: thanishma/my-restaurant-app:1.0
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
 
